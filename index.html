@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>currencyconverter</title>
+	</head>
+	<body>
+		<div class="space-converter">
+				<header> Currency converter </header>
+        <div class="form1">
+			<label for="valor">Amount</label>
+            <input type="number" name="valor" id="valor"> <br> <br>
+				<div class="bigger">
+				<div class="options">
+				<label for="estate1">From</label>
+				<select id="estate1" name="estate1">
+					<option itemid="USD">USD</option>
+					<option itemid="BRL">BRL</option>
+					<option itemid="GBP">GBP</option>
+					<option itemid="EUR">EUR</option>
+				</select>
+				</div>
+				<input type="button" value="Invert" id="invert">
+				<div class="options">
+				<label for="estate2">To</label>
+				<select id="estate2" name="estate2">
+					<option itemid="USD">USD</option>
+					<option itemid="BRL" selected>BRL</option>
+					<option itemid="GBP">GBP</option>
+					<option itemid="EUR">EUR</option>
+				</select> <br> <br>
+				</div>
+				</div>
+			<input type="button" value="Convert" id="send"> <br><br>
+			<p id="p1"></p>
+        </div>
+		</div>
+		<script src="scripts.js" defer></script>
+	</body>
+</html>
