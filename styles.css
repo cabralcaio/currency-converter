@@ -6,16 +6,27 @@
 }
 
 body{
+    background: #9fe4ff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.todo-site {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #9fe4ff;
 }
+
+.cards-all {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .space-converter{
     width: 370px;
     padding: 30px;
-    border-radius: 7px;
+    border-radius: 20px;
     background: #fff;
     float: left;
 	background: #FFFFFF;
@@ -72,4 +83,64 @@ body{
 }
 #p1{
     text-align: center;
+}
+
+.card {
+    background-color: #ebebeb;
+    width: 370px;
+    margin: auto;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+    box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+}
+
+.content-card {
+    display: flex;
+    justify-content: center;
+}
+
+#banner {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left: 0px;
+}
+
+.tags {
+    color: rgb(118, 118, 255);
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+p, h2, h3 {
+    padding-left: 10px;
+    color: #465362;
+}
+
+.content {
+    margin-top: 1px;
+}
+
+#label3 {
+        color: white;
+        background-color: #30143f;
+        width: fit-content;
+        padding: 3px 10px;
+        border-radius: 10px;
+        font-weight: 800;
+}
+
+.labeldiv {
+    display: flex;
+    justify-content: center;
+}
+table, th, td {
+    margin-top: 10px;
+    border: 1px solid #465362;
+    align-items: center;
+    
 }
